@@ -382,7 +382,7 @@
 		F2C6FCBC1D89E16800E0DD9E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = Dropbox;
 				TargetAttributes = {
 					F2C6FCC41D89E16800E0DD9E = {
@@ -399,10 +399,11 @@
 			};
 			buildConfigurationList = F2C6FCBF1D89E16800E0DD9E /* Build configuration list for PBXProject "SwiftyDropbox" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F2C6FCBB1D89E16800E0DD9E;
 			productRefGroup = F2C6FCC61D89E16800E0DD9E /* Products */;
@@ -540,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -604,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -675,6 +678,7 @@
 				PRODUCT_NAME = SwiftyDropbox;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -695,6 +699,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dropbox.SwiftyDropbox;
 				PRODUCT_NAME = SwiftyDropbox;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
